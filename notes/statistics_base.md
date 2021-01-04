@@ -52,6 +52,38 @@ Plus la valeur de p est petite, plus la probabilité de faire une erreur en reje
 https://www.youtube.com/watch?v=jy9b1HSqtSk&ab_channel=Science4All
 https://www.youtube.com/watch?v=xVIt51ybvu0&ab_channel=Lastatistiqueexpliqu%C3%A9e%C3%A0monchat
 
+Principe de réfutation : 
+
+H0 hypothèse nulle et l'hypothèse à refuter ou T 
+La science cherche à collecter des données D pour réfuter la théories T
+
+résumé vidéo science4All:
+
+
+Réfutation de fisher 
+si les données D sont hautement invraisemblable (en queue de distrib) en supposant T vrai alors on rejette T
+autrement dit si la p-value ( vraissemblance des données D ) est très faible alors on doit rejeter T
+
+les sciences consisterait donc à réfuter des théories qui sont vraissemblablement réfutable. EN science on ne prouve pas les théroies on les réfute
+
+ 
+Souvent T décrit une quasi loi normale, les données D vont donc décrire une courbe en cloche
+ on dit alors que T est vraisemblable si D se trouve dans la cloche et T est rejeté si D se trouve au extréite (queues de distriubtions)
+
+La p-value est donc la vraissemblance des données "pires" que D en supposant T vraie
+
+exemple de compréhension :
+les physiciens ont découvert le boson de higgs à 99.9999% de chance == Faux 
+Si on suppose l'absence du boson de higgs (H0, T est vrai) alors la vraissemblance des données plus incompatible avec l'abence du boson de higgs que la donné D observé par le CERN est inférieur à 0,0001 
+Donc si on applique la méthode de fishe (p-value) alors il faut rejeter l'absence du boson de higgs*
+
+théorème de la p-value : 
+Si T es est vraie le seuil de la p-value est égale à la probabilité de rejeter T à tort
+
+si la science testait ses théories avec un seuil de 1% alors 1% des thérories serait erronés 
+
+
+p-valuen'esplique ps tout : la vraissemblance des donées n'est pas la crédence de la théorie
 # Expected value of random variables
 
 
