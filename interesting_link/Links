@@ -4,12 +4,27 @@
 - vscode jupyter : https://code.visualstudio.com/docs/python/jupyter-support
 
 
-# statistics
+# Statistics
 
 
 - 10 must know statistical concepts : 
 https://towardsdatascience.com/10-must-know-statistical-concepts-for-data-scientists-645619783c08
 
-- Covariance et corrélation : https://towardsdatascience.com/getting-the-basics-of-correlation-covariance-c8fc110b90b4
+- Covariance et corrélation(Pearson Spearman) : https://towardsdatascience.com/getting-the-basics-of-correlation-covariance-c8fc110b90b4
 
 
+- P-value : 
+https://www.youtube.com/watch?v=jy9b1HSqtSk&ab_channel=Science4All
+https://www.youtube.com/watch?v=xVIt51ybvu0&ab_channel=Lastatistiqueexpliqu%C3%A9e%C3%A0monchat
+
+
+
+# DataScience 
+
+- Understanding the Bias-Variance Tradeof : http://scott.fortmann-roe.com/docs/BiasVariance.html
+
+- Bias article : http://approximatelycorrect.com/2016/11/07/the-foundations-of-algorithmic-bias/
+- 
+# Machine Learning engineer 
+
+-  Déployer son modèle avec pycaret + Flask ou pycaret + docker + Azure : https://towardsdatascience.com/deploy-machine-learning-pipeline-on-cloud-using-docker-container-bec64458dc01
