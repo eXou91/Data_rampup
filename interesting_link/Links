@@ -21,9 +21,21 @@ https://www.youtube.com/watch?v=xVIt51ybvu0&ab_channel=Lastatistiqueexpliqu%C3%A
 
 # DataScience 
 
+  
 - Understanding the Bias-Variance Tradeof : http://scott.fortmann-roe.com/docs/BiasVariance.html
 
 - Bias article : http://approximatelycorrect.com/2016/11/07/the-foundations-of-algorithmic-bias/
+
+- Cross validation : https://www.kevindegila.com/la-validation-croisee-en-machine-learning-tout-ce-quil-faut-savoir/ 
+
+- R2  score https://fr.wikipedia.org/wiki/Coefficient_de_d%C3%A9termination
+            https://freakonometrics.hypotheses.org/75 (mauvais coté du R2)
+
+### algo 
+- polynomial regression : https://towardsdatascience.com/polynomial-regression-bbe8b9d97491
+  
+- ridge lasso elasticnet regression: https://openclassrooms.com/fr/courses/4444646-entrainez-un-modele-predictif-lineaire/4507806-reduisez-le-nombre-de-variables-utilisees-par-votre-modele
+  
 - 
 # Machine Learning engineer 
 

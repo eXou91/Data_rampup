@@ -85,7 +85,6 @@ si la science testait ses théories avec un seuil de 1% alors 1% des thérories 
 
 p-valuen'esplique ps tout : la vraissemblance des donées n'est pas la crédence de la théorie
 
-# Compromis biais-variance 
 
 # Confidence intervalue 
 # Bayesian analysis
