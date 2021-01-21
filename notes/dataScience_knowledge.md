@@ -1,3 +1,5 @@
+http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
+
 # **Cross Validation**
 
 La validation croisée (ou cross-validation  en anglais) est une méthode statistique qui permet d'évaluer la capacité de généralisation d'un modèle. Il s'agit d'une méthode qui est plus stable et fiable que celle d'évaluer la performance sur des données réservées pour cette tache (Hold-out Validation). Généralement lorsqu'on parle de cross-validation (cv), l'on réfère à sa variante la plus populaire qu'est le k-fold cross-validation. Dans ce cas, nous profitons de toutes les données à disposition en les divisant en k parties égales (folds) sur lesquelles on entraîne et teste un modèle pendant k itérations. A chaque itération, le modèle est entrainé sur k-1 folds et est testé sur le fold restant
@@ -17,6 +19,12 @@ The error due to variance is taken as the variability of a model prediction for 
 
 
 # **Algo** 
+
+## **Boosting and Bagging**
+
+![<NOM_DU_FICHIER>](../notes/img/bagging_boosting.png)
+https://www.lovelyanalytics.com/2016/09/12/gradient-boosting-comment-ca-marche/#:~:text=Le%20principe%20du%20Boosting&text=Dans%20la%20construction%20des%20mod%C3%A8les,la%20performance%20de%20la%20pr%C3%A9diction.
+
 
 ## **Regression**
      
@@ -80,11 +88,26 @@ Hyper-paramêtr à retenir :
 C qui permet de décider de la pénalité des missclassifications. Un low C pourra permettre certains erreurs de classification mais une meilleur généralisation ( higher bias but lower variance?) un High C ne permettra pas d'erreur de classification (low bias, high variance)
 dans le cas du kernal radial basis: alpha déterine la complexité du kernel et donc du modèle.
 
-### **logistic Regression**
 
+### **Naives bayes classifier**
+- Naîve car considère que toutes les variables sont indépendantes (littlle/ no correlation) et de même importance
+- PLusieurs types : 
+  - Bernouilli : Le modèle Bernoulli Naive Bayes utilise un ensemble de caractéristiques d'occurrence binaires. Lors de la classification des textes par exemple, le modèle Bernoulli Naive Bayes est très pratique car nous pourrions représenter la présence ou l'absence du mot donné dans le texte avec la fonction binaire.
+  - Multinomial : utilise un ensemble de fonctions de base de nombre dont chacune tient compte du nombre de fois qu'une caractéristique particulière telle qu'un mot est observée dans un exemple de formation comme un document.
+ces modèles sont particulièrement adaptés aux données textuelles, où chaque entité correspond à une observation pour un mot particulier
+
+  - Gaussian : continuous/real-valued features : Nous allons chercher à déterminer la probabilité que notre objet appartient à la classe “écrit romanesque” à la probabilité que notre écrit appartient à l’autre classe.
+  Nous allons ensuite comparer ces deux probabilités pour sélectionner la plus grande des deux.
+  En résumant cherche à calculer les probabiltés conditionneles d'appartenances à chaques classes grâce à la formule de bayes et séléctionne la probabilté la plus importante
+  ( sachant que mes features ont les valeurs a,b,c quelle est la probabilté d'appartenir à cette classe)
+
+  ![<NOM_DU_FICHIER>](../notes/img/naive.png)
+  
 ### **decision tree**
 
 - complexification à l'infini 
+- Très peu couteux
+-  parfois du mal à généraliser
 - se généralise parfaitement au très grand dimension
 - très rapidemment calculable
 - MAIS gros risuqe d'overfitting (l'arbre peut s'agrandir jusqu'a matcher parfaitement les données)
@@ -95,6 +118,17 @@ ensemble d'arbre de décision (chaque arbre est différent étant données que l
 le but étant de faire assez d'arbre pour être résistant aux fluctuations des données et limiter la variance
 https://www.youtube.com/watch?v=D2IazsNG9_g&list=PLtzmb84AoqRTl0m1b82gVLcGU38miqdrC&index=17&ab_channel=Science4All
 
+![<NOM_DU_FICHIER>](../notes/img/rf_parameters.png)
+![<NOM_DU_FICHIER>](../notes/img/rf_pro_cons.png)
+
+
+### **Gradient boosting classifier**
+
+
+### **logistic Regression**
+
+## **Neural Network**
+http://playground.tensorflow.org/#activation=tanh&batchSize=7&dataset=xor&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,7&seed=0.85256&showTestData=false&discretize=false&percTrainData=30&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
 
 # **Scoring**
 
