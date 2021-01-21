@@ -125,10 +125,21 @@ https://www.youtube.com/watch?v=D2IazsNG9_g&list=PLtzmb84AoqRTl0m1b82gVLcGU38miq
 ### **Gradient boosting classifier**
 
 
+
 ### **logistic Regression**
 
 ## **Neural Network**
 http://playground.tensorflow.org/#activation=tanh&batchSize=7&dataset=xor&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,7&seed=0.85256&showTestData=false&discretize=false&percTrainData=30&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+
+## **Clustering**
+
+### **Random Cut Forest**
+https://freecontent.manning.com/the-randomcutforest-algorithm/
+https://opendistro.github.io/for-elasticsearch/blog/odfe-updates/2019/11/random-cut-forests/
+https://docs.aws.amazon.com/quicksight/latest/user/what-is-random-cut-forest.html
+
+STREAMING ALGO
+The machine learning algorithm you’ll use in this article is called Random Cut Forest. It’s a wonderfully descriptive name because the algorithm takes a bunch of random data points (Random), cuts them to the same number of points and creates trees (Cut). It then looks at all of the trees together (Forest) to determine whether a particular data point is an anomaly: Random Cut Forest.
 
 # **Scoring**
 
