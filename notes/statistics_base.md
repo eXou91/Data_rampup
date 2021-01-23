@@ -93,4 +93,10 @@ p-valuen'esplique ps tout : la vraissemblance des donées n'est pas la crédence
 
 # Conditional probability 
 
-# Bayes’ theorem
+# Baye's theorem
+
+Exemple d'actualité : https://www.linkedin.com/pulse/le-th%25C3%25A9or%25C3%25A8me-de-bayes-cas-pratique-virginie-mathivet/?trackingId=TlevfYHUJhyReEiiXKIGxQ%3D%3D
+
+
+# THérorème fondamentale de l'apprentissage supervisée ( très vulgarisé)
+100x plus d'observations que de variables explicztives
