@@ -1,1 +1,2 @@
-# Scatter Matric 
+# Scatter Matrix
+

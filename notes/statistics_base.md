@@ -1,3 +1,7 @@
+# sum up 
+https://towardsdatascience.com/8-fundamental-statistical-concepts-for-data-science-9b4e8a0c6f1c
+
+
 # Variance and standard deviation
 
 Variance is a measure of the variation among values. It is calculated by adding up squared differences of each value and the mean and then dividing the sum by the number of samples.
