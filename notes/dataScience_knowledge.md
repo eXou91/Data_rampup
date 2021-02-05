@@ -1,5 +1,11 @@
 http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
 
+https://medium.com/@taylor.mark110/data-science-certifications-the-best-picks-for-2021-1d1023ce8eed
+
+
+GCP:
+https://ml-rafiqhasan.medium.com/how-i-cracked-the-gcp-professional-ml-engineer-certification-in-8-days-f341cf0bc5a0
+
 # **Cross Validation**
 
 La validation croisée (ou cross-validation  en anglais) est une méthode statistique qui permet d'évaluer la capacité de généralisation d'un modèle. Il s'agit d'une méthode qui est plus stable et fiable que celle d'évaluer la performance sur des données réservées pour cette tache (Hold-out Validation). Généralement lorsqu'on parle de cross-validation (cv), l'on réfère à sa variante la plus populaire qu'est le k-fold cross-validation. Dans ce cas, nous profitons de toutes les données à disposition en les divisant en k parties égales (folds) sur lesquelles on entraîne et teste un modèle pendant k itérations. A chaque itération, le modèle est entrainé sur k-1 folds et est testé sur le fold restant
@@ -133,6 +139,12 @@ http://playground.tensorflow.org/#activation=tanh&batchSize=7&dataset=xor&regDat
 
 ## **Clustering**
 
+### ***build an anomaly detection model***
+
+https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model-87d28e50309
+
+### DBSCAN (density-based spatial clustering of applications with noise)
+
 ### **Random Cut Forest**
 https://freecontent.manning.com/the-randomcutforest-algorithm/
 https://opendistro.github.io/for-elasticsearch/blog/odfe-updates/2019/11/random-cut-forests/
@@ -140,6 +152,7 @@ https://docs.aws.amazon.com/quicksight/latest/user/what-is-random-cut-forest.htm
 
 STREAMING ALGO
 The machine learning algorithm you’ll use in this article is called Random Cut Forest. It’s a wonderfully descriptive name because the algorithm takes a bunch of random data points (Random), cuts them to the same number of points and creates trees (Cut). It then looks at all of the trees together (Forest) to determine whether a particular data point is an anomaly: Random Cut Forest.
+
 
 # **Scoring**
 
