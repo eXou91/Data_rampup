@@ -12,3 +12,6 @@ https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-an
 
 ## with kubeflow et tfx :
 https://cloud.google.com/solutions/machine-learning/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build?hl=fr
+
+## deploying model with flask API
+https://towardsdatascience.com/deploying-a-machine-learning-model-as-a-rest-api-4a03b865c166

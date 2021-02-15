@@ -3,6 +3,12 @@ http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
 https://medium.com/@taylor.mark110/data-science-certifications-the-best-picks-for-2021-1d1023ce8eed
 
 
+Roadmap to become a datascientist : 
+https://tekrajawasthi15.medium.com/the-complete-roadmap-to-be-a-data-scientist-9a07721b88fd
+
+tips to find a job : 
+https://towardsdatascience.com/how-i-got-4-data-science-offers-and-doubled-my-income-2-months-after-being-laid-off-b3b6d2de6938
+
 GCP:
 https://ml-rafiqhasan.medium.com/how-i-cracked-the-gcp-professional-ml-engineer-certification-in-8-days-f341cf0bc5a0
 
@@ -136,12 +142,20 @@ https://www.youtube.com/watch?v=D2IazsNG9_g&list=PLtzmb84AoqRTl0m1b82gVLcGU38miq
 
 ## **Neural Network**
 http://playground.tensorflow.org/#activation=tanh&batchSize=7&dataset=xor&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=8,7&seed=0.85256&showTestData=false&discretize=false&percTrainData=30&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+## **anomaly detection**
+### Introduction 
 
-## **Clustering**
+https://medium.com/sciforce/anomaly-detection-another-challenge-for-artificial-intelligence-c69d414b14db
 
 ### ***build an anomaly detection model***
 
 https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model-87d28e50309
+
+with classification and gaussian distribution
+
+
+## **Clustering**
+
 
 ### DBSCAN (density-based spatial clustering of applications with noise)
 
