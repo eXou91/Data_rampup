@@ -31,10 +31,14 @@ The error due to variance is taken as the variability of a model prediction for 
 
 
 
-## semi automated data exploration
+## **semi automated data exploration**:
 
 https://towardsdatascience.com/semi-automated-exploratory-data-analysis-eda-in-python-7f96042c9809
 
+
+## **how to adress missing value**: 
+
+https://www.visual-design.net/post/how-to-address-missing-data
 # **Algo** 
 
 ## **Boosting and Bagging**
