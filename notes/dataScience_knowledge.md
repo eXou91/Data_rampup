@@ -30,6 +30,11 @@ The error due to bias is taken as the difference between the expected (or averag
 The error due to variance is taken as the variability of a model prediction for a given data point. Again, imagine you can repeat the entire model building process multiple times. The variance is how much the predictions for a given point vary between different realizations of the model.
 
 
+
+## semi automated data exploration
+
+https://towardsdatascience.com/semi-automated-exploratory-data-analysis-eda-in-python-7f96042c9809
+
 # **Algo** 
 
 ## **Boosting and Bagging**
